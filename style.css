@@ -1,0 +1,154 @@
+.header {
+position: relative;
+width: 1000px;
+height: 600px;
+background: #F4F5F7;
+border-radius: 25px;
+border: 2px solid mistyrose;
+}
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation :first-child {
+width: 76px;
+height: 20px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Primary/B400 */
+
+color: #6070FF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 5;
+}
+/* Portoflio */
+
+.navigation: :nth-child(2) {
+    width: 63px;
+    height: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    /* Neutrals/N600 */
+    
+    color: #344563;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;    
+}
+
+/* Header bg */
+.headline img {
+position: absolute;
+width: 700;
+height: 421.46px;
+left: 34.6px;
+top: 119px;
+
+}
+.bio-information :first-child {
+width: 920px;
+height: 122px;
+
+/* Header / 1 */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 60px;
+/* or 125% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.37px;
+
+/* Theme 1 / Neutrals 1 */
+
+color: #091E42;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.bio-information :last-child {
+    width: 920px;
+height: 98px;
+
+/* Body / 1 */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+
+
+/* Theme 1 / Neutrals 3 */
+
+color: #344563;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.headline {
+    flex-wrap: wrap;
+}
+.bio-information {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 0px;
+    gap: 8px 12px;
+
+    position: absolute;
+    margin: auto;
+    width: 122px;
+    height: 80px;
+    left: 122px;
+    top: calc(50% - 80px/2);
+}
+.navbar: h1{
+    color: #344563;
+}
+
