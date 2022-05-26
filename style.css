@@ -9,6 +9,7 @@ border: 2px solid mistyrose;
 .navigation {
     display: flex;
     list-style: none;
+    justify-content: space-between;
 }
 
 .navigation :first-child {
@@ -35,11 +36,12 @@ color: #6070FF;
 
 flex: none;
 order: 0;
-flex-grow: 5;
+flex-grow: 7;
 }
+
 /* Portoflio */
 
-.navigation: :nth-child(2) {
+.navigation:nth-child(2) {
     width: 63px;
     height: 20px;
     font-family: 'Poppins';
@@ -64,18 +66,64 @@ flex-grow: 5;
     order: 0;
     flex-grow: 0;    
 }
-
+.navigation:nth-child(3) {
+    width: 63px;
+    height: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    /* Neutrals/N600 */
+    
+    color: #344563;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;    
+}
+.navigation:nth-child(4) {
+    width: 63px;
+    height: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    /* Neutrals/N600 */
+    
+    color: #344563;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;    
+}
 /* Header bg */
 .headline img {
 position: absolute;
 width: 700;
 height: 421.46px;
 left: 34.6px;
-<<<<<<< Updated upstream
 top: 80px;
-=======
 top: 119px;
->>>>>>> Stashed changes
 
 }
 .bio-information :first-child {
@@ -151,8 +199,5 @@ flex-grow: 0;
     height: 80px;
     left: 122px;
     top: calc(50% - 80px/2);
-}
-.navbar: h1{
-    color: #344563;
 }
 
